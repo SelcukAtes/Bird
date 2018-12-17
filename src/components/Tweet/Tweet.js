@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classes from './Tweet.module.css'
 
 class Tweet extends Component {
   state = {
@@ -7,7 +8,7 @@ class Tweet extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.userTweet}</p>
+        <p className={classes.message}>{this.state.userTweet}</p>
       </div>
     )
   }
