@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Bird from './containers/Bird/Bird';
 import Login from './containers/Login/Login';
-import Tweet from './components/Tweet/Tweet'
+import Tweet from './components/Tweet/Tweet';
+import Profile from './components/Profile/Profile'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Bird />
         <Login />
         <Tweet />
+        <Profile />
       </div>
     );
   }
