@@ -9,7 +9,7 @@ class Profile extends Component {
   render() {
     return (
       <div>
-        <p>{this.state.userName}</p>
+        <p className={classes.profile}>{this.state.userName}</p>
       </div>
     )
   }
